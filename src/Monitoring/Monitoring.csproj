@@ -3,5 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
+  
+  <ItemGroup>
+    <PackageReference Include="App.Metrics" Version="4.1.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Mvc" Version="4.1.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Tracking" Version="4.1.0" />
+    <PackageReference Include="App.Metrics.Formatters.Prometheus" Version="4.1.0" />
+    <PackageReference Include="App.Metrics.Reporting.InfluxDB" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+  
 </Project>
